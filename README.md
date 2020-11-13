@@ -1,3 +1,21 @@
+# Reactstagramme
+This react project is created with guidance from NEXT ACADEMY and the features are shown as below:
+
+1. User can signup, log in and out
+1. After signup / login, user is able to see all of the users' image newsfeed on homepage
+1. User can upload image (sent to **Amazon S3**) with preview and being showed on their page once upload complete
+1. User can like / unlike pictures and total likes will be shown for each individual picture
+
+**Others features**: JWT token
+
+**Additional info**
+
+This project uses API endpoint from another Flask/Python project called [Flaskstagram](https://github.com/elitetai/flaskstagram), which shares the same database (e.g. user info, image url path).
+
+Deployed under **[Netlify]()** (Might take some time to load - please wait for it to start up from its dormant state)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
