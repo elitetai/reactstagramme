@@ -9,7 +9,7 @@ export default function Likes(props){
     const [totalLikes, setTotalLikes] = useState(null)
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/api/images/${imageId}/toggle_like`,
+        axios.get(`https://flaskstagram.herokuapp.com/api/images/${imageId}/toggle_like`,
         {
             headers: {
                 "Authorization": "Bearer " + localStorage.getItem('token')
@@ -27,7 +27,7 @@ export default function Likes(props){
     const toggleLike = () => {
         axios({
             method: 'POST',
-            url: `http://localhost:5000/api/images/${imageId}/toggle_like`,
+            url: `https://flaskstagram.herokuapp.com/api/images/${imageId}/toggle_like`,
             headers: {
                 "Authorization": "Bearer " + localStorage.getItem('token')
             }

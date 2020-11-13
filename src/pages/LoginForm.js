@@ -24,7 +24,7 @@ const Login = (prop) => {
       e.preventDefault()
       axios({
         method: 'POST',
-        url: 'http://localhost:5000/api/sessions/login',
+        url: 'https://flaskstagram.herokuapp.com/api/sessions/login',
         data: {
           username: username,
           password: password

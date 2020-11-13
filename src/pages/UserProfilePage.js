@@ -12,7 +12,7 @@ const UserProfilePage = () => {
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
-    axios(`http://localhost:5000/api/users/${username}`,
+    axios(`https://flaskstagram.herokuapp.com/api/users/${username}`,
     {
       headers: {
           'Authorization': 'Bearer '+ localStorage.getItem('token')

@@ -18,7 +18,7 @@ const Signup = (prop) => {
   const checkUsername = (newUsername) => {
     // console.count("Making API call to check username!")
     if (newUsername !== ""){
-      axios.get(`http://localhost:5000/api/users/check_name?username=${newUsername}`)
+      axios.get(`https://flaskstagram.herokuapp.com/api/users/check_name?username=${newUsername}`)
       .then(result => {
         if (result.data.valid === true){
           setUsernameValid(true)
@@ -79,7 +79,7 @@ const Signup = (prop) => {
     e.preventDefault()
     axios({
       method: 'POST',
-      url: "http://localhost:5000/api/users/signup",
+      url: "https://flaskstagram.herokuapp.com/api/users/signup",
       data: {
         username: username,
         email: email,

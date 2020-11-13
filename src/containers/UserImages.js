@@ -12,7 +12,7 @@ const UserImages = (props) => {
 
     useEffect(() => {
         // let mounted = true
-        axios.get(`http://localhost:5000/api/images/images?userId=${userId}`) 
+        axios.get(`https://flaskstagram.herokuapp.com/api/images/images?userId=${userId}`) 
         .then(response => {
             // if (mounted){
             setImages(response.data)           

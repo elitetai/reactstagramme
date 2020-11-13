@@ -12,7 +12,7 @@ This react project is created with guidance from NEXT ACADEMY and the features a
 
 This project uses API endpoint from another Flask/Python project called [Flaskstagram](https://github.com/elitetai/flaskstagram), which shares the same database (e.g. user info, image url path).
 
-Deployed under **[Netlify]()** (Might take some time to load - please wait for it to start up from its dormant state)
+Deployed under **[Netlify](reactstagramme.netlify.app)** (Might take some time to load - please wait for it to start up from its dormant state)
 
 ---
 

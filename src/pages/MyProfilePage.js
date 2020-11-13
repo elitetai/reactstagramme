@@ -13,7 +13,7 @@ const MyProfilePage = () => {
     
     useEffect(() => {
         document.title="My Profile"
-        axios('http://localhost:5000/api/users/me',
+        axios('https://flaskstagram.herokuapp.com/api/users/me',
         {
             headers: {
                 'Authorization': 'Bearer '+ localStorage.getItem('token')

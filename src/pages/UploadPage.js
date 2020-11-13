@@ -28,7 +28,7 @@ const UploadPage = () => {
     
     axios({
         method: 'POST',
-        url: 'http://localhost:5000/api/images/',
+        url: 'https://flaskstagram.herokuapp.com/api/images/',
         headers: {
             "Authorization": "Bearer " + localStorage.getItem('token')
         },

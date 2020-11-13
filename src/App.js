@@ -18,7 +18,7 @@ function App() {
     localStorage.getItem('token')
   ) 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/users')
+    axios.get('https://flaskstagram.herokuapp.com/api/users')
     .then(result => {
       setUsers(result.data)
       setIsLoading(false)
