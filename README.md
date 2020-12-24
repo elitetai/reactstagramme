@@ -10,8 +10,8 @@ This react project is created with guidance from NEXT ACADEMY and the features a
 
 **Additional info**
 You can login to test the features with below user:
-> Username: Private1
-> Password: Private1##
+> - Username: Private1
+> - Password: Private1##
 
 This project uses API endpoint from another Flask/Python project called [Flaskstagram](https://github.com/elitetai/flaskstagram), which shares the same database (e.g. user info, image url path).
 
