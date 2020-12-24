@@ -9,10 +9,13 @@ This react project is created with guidance from NEXT ACADEMY and the features a
 **Others features**: JWT token
 
 **Additional info**
+You can login to test the features with below user:
+Username: Private1
+Password: Private1##
 
 This project uses API endpoint from another Flask/Python project called [Flaskstagram](https://github.com/elitetai/flaskstagram), which shares the same database (e.g. user info, image url path).
 
-Deployed under **[Netlify](https://reactstagramme.netlify.app)** (Might take some time to load - please wait for it to start up from its dormant state)
+Deployed under Netlify. **[Click Here](https://reactstagramme.netlify.app)** (Might take some time to load - please wait for it to start up from its dormant state)
 
 ---
 
